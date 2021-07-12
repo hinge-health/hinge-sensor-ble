@@ -1,4 +1,4 @@
-package com.polidea.reactnativeble;
+package hinge.polidea.reactnativeble;
 
 import com.facebook.react.ReactPackage;
 import com.facebook.react.bridge.JavaScriptModule;

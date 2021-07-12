@@ -1,4 +1,4 @@
-package com.polidea.reactnativeble;
+package hinge.polidea.reactnativeble;
 
 public enum Event {
 

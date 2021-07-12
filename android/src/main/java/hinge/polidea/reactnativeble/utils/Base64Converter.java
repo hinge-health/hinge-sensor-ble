@@ -1,4 +1,4 @@
-package com.polidea.reactnativeble.utils;
+package hinge.polidea.reactnativeble.utils;
 
 import android.util.Base64;
 

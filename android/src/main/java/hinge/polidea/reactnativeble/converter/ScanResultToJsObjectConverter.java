@@ -1,4 +1,4 @@
-package com.polidea.reactnativeble.converter;
+package hinge.polidea.reactnativeble.converter;
 
 import androidx.annotation.NonNull;
 
