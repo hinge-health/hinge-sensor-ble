@@ -17,5 +17,5 @@ Pod::Spec.new do |s|
   s.compiler_flags = '-DMULTIPLATFORM_BLE_ADAPTER'
 
   s.dependency 'React-Core'
-  s.dependency 'hinge-MultiplatformBleAdapter', :git => "git@github.com:hinge-health/hinge-MultiPlatformBleAdapter.git"
+  s.dependency 'hinge-MultiplatformBleAdapter', { :git => "git@github.com:hinge-health/hinge-MultiPlatformBleAdapter.git" }
 end
