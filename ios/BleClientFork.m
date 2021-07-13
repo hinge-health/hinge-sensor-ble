@@ -10,7 +10,7 @@
 @import MultiplatformBleAdapter;
 
 @interface BleModuleFork () <BleClientManagerDelegate>
-@property(nonatomic) BleClientManagerFork* manager;
+@property(nonatomic) BleClientManager* manager;
 @end
 
 @implementation BleModuleFork
@@ -20,7 +20,7 @@
 
 @synthesize methodQueue = _methodQueue;
 
-RCT_EXPORT_MODULE(BleClientManagerFork*);
+RCT_EXPORT_MODULE();
 
 - (void)dispatchEvent:(NSString * _Nonnull)name value:(id _Nonnull)value {
     if (hasListeners) {
