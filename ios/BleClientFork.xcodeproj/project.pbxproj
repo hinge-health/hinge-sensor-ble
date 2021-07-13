@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		102073351DF7B74B0DAE27FF /* Pods_BleClient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DFF533B5337FAA849B7B517 /* Pods_BleClient.framework */; };
-		D7D202791D4F614D00E10F6A /* BleClient.m in Sources */ = {isa = PBXBuildFile; fileRef = D7D202771D4F614D00E10F6A /* BleClient.m */; };
+		D7D202791D4F614D00E10F6A /* BleClientFork.m in Sources */ = {isa = PBXBuildFile; fileRef = D7D202771D4F614D00E10F6A /* BleClientFork.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,10 +26,10 @@
 /* Begin PBXFileReference section */
 		4DFF533B5337FAA849B7B517 /* Pods_BleClient.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BleClient.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C98D3BFF0742CAA77EE24920 /* Pods-BleClient.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BleClient.release.xcconfig"; path = "Target Support Files/Pods-BleClient/Pods-BleClient.release.xcconfig"; sourceTree = "<group>"; };
-		D73F06E81D48E17B00AD5963 /* libBleClient.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libBleClient.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		D760681620BBEEA10005ECAF /* BleClient-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BleClient-Bridging-Header.h"; sourceTree = "<group>"; };
-		D7D202771D4F614D00E10F6A /* BleClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BleClient.m; sourceTree = "<group>"; };
-		D7D202781D4F614D00E10F6A /* BleClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BleClient.h; sourceTree = "<group>"; };
+		D73F06E81D48E17B00AD5963 /* libBleClientFork.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libBleClientFork.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D760681620BBEEA10005ECAF /* BleClientFork-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BleClientFork-Bridging-Header.h"; sourceTree = "<group>"; };
+		D7D202771D4F614D00E10F6A /* BleClientFork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BleClientFork.m; sourceTree = "<group>"; };
+		D7D202781D4F614D00E10F6A /* BleClientFork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BleClientFork.h; sourceTree = "<group>"; };
 		F12C271279460763ACBE0764 /* Pods-BleClient.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BleClient.debug.xcconfig"; path = "Target Support Files/Pods-BleClient/Pods-BleClient.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -57,9 +57,9 @@
 		D73F06DF1D48E17B00AD5963 = {
 			isa = PBXGroup;
 			children = (
-				D7D202771D4F614D00E10F6A /* BleClient.m */,
-				D7D202781D4F614D00E10F6A /* BleClient.h */,
-				D760681620BBEEA10005ECAF /* BleClient-Bridging-Header.h */,
+				D7D202771D4F614D00E10F6A /* BleClientFork.m */,
+				D7D202781D4F614D00E10F6A /* BleClientFork.h */,
+				D760681620BBEEA10005ECAF /* BleClientFork-Bridging-Header.h */,
 				D73F06E91D48E17B00AD5963 /* Products */,
 				788BA565B3A26C491819755F /* Pods */,
 				E8C769D549D49AEFBAC11D8E /* Frameworks */,
@@ -69,7 +69,7 @@
 		D73F06E91D48E17B00AD5963 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D73F06E81D48E17B00AD5963 /* libBleClient.a */,
+				D73F06E81D48E17B00AD5963 /* libBleClientFork.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -85,9 +85,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D73F06E71D48E17B00AD5963 /* BleClient */ = {
+		D73F06E71D48E17B00AD5963 /* BleClientFork */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D73F06F11D48E17B00AD5963 /* Build configuration list for PBXNativeTarget "BleClient" */;
+			buildConfigurationList = D73F06F11D48E17B00AD5963 /* Build configuration list for PBXNativeTarget "BleClientFork" */;
 			buildPhases = (
 				070F0B47C33D64FC68A3E6BD /* [CP] Check Pods Manifest.lock */,
 				D73F06E41D48E17B00AD5963 /* Sources */,
@@ -98,9 +98,9 @@
 			);
 			dependencies = (
 			);
-			name = BleClient;
+			name = BleClientFork;
 			productName = BleClient;
-			productReference = D73F06E81D48E17B00AD5963 /* libBleClient.a */;
+			productReference = D73F06E81D48E17B00AD5963 /* libBleClientFork.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -118,7 +118,7 @@
 					};
 				};
 			};
-			buildConfigurationList = D73F06E31D48E17B00AD5963 /* Build configuration list for PBXProject "BleClient" */;
+			buildConfigurationList = D73F06E31D48E17B00AD5963 /* Build configuration list for PBXProject "BleClientFork" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -131,7 +131,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D73F06E71D48E17B00AD5963 /* BleClient */,
+				D73F06E71D48E17B00AD5963 /* BleClientFork */,
 			);
 		};
 /* End PBXProject section */
@@ -166,7 +166,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D7D202791D4F614D00E10F6A /* BleClient.m in Sources */,
+				D7D202791D4F614D00E10F6A /* BleClientFork.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -324,7 +324,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D73F06E31D48E17B00AD5963 /* Build configuration list for PBXProject "BleClient" */ = {
+		D73F06E31D48E17B00AD5963 /* Build configuration list for PBXProject "BleClientFork" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D73F06EF1D48E17B00AD5963 /* Debug */,
@@ -333,7 +333,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D73F06F11D48E17B00AD5963 /* Build configuration list for PBXNativeTarget "BleClient" */ = {
+		D73F06F11D48E17B00AD5963 /* Build configuration list for PBXNativeTarget "BleClientFork" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D73F06F21D48E17B00AD5963 /* Debug */,

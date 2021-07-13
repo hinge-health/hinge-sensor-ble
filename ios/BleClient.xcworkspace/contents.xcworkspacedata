@@ -2,7 +2,7 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:BleClient.xcodeproj">
+      location = "group:/Users/callanbush/Desktop/repos/hinge-sensor-ble/ios/BleClientFork.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:Pods/Pods.xcodeproj">
