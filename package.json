@@ -1,5 +1,5 @@
 {
-  "name": "react-native-ble-plx",
+  "name": "hinge-sensor-ble",
   "version": "2.0.2",
   "description": "React Native Bluetooth Low Energy library",
   "main": "index.js",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Polidea/react-native-ble-plx.git"
+    "url": "git+https://github.com/hinge-health/hinge-sensor-ble.git"
   },
   "devDependencies": {
     "@babel/core": "^7.12.3",

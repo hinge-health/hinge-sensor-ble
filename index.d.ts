@@ -1,4 +1,4 @@
-declare module 'react-native-ble-plx' {
+declare module 'hinge-sensor-ble' {
   // TypeDefinition.js *************************************************************************************************
 
   /**
