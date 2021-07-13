@@ -42,10 +42,10 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
 
-public class BleClientManager extends ReactContextBaseJavaModule {
+public class BleClientManagerFork extends ReactContextBaseJavaModule {
 
     // Name of module
-    private static final String NAME = "BleClientManager";
+    private static final String NAME = "BleClientManagerFork";
 
     // Value converters
     private final BleErrorToJsObjectConverter errorConverter = new BleErrorToJsObjectConverter();
@@ -57,7 +57,7 @@ public class BleClientManager extends ReactContextBaseJavaModule {
 
     private BleAdapter bleAdapter;
 
-    public BleClientManager(ReactApplicationContext reactContext) {
+    public BleClientManagerFork(ReactApplicationContext reactContext) {
         super(reactContext);
     }
 
