@@ -6,21 +6,21 @@
 //  Copyright © 2016 Polidea. All rights reserved.
 //
 
-#import "BleClient.h"
+#import "BleClientFork.h"
 @import MultiplatformBleAdapter;
 
-@interface BleModule () <BleClientManagerDelegate>
+@interface BleModuleFork () <BleClientManagerDelegate>
 @property(nonatomic) BleClientManagerFork* manager;
 @end
 
-@implementation BleModule
+@implementation BleModuleFork
 {
-    bool hasListeners;
+    bool hasListenersFork;
 }
 
 @synthesize methodQueue = _methodQueue;
 
-RCT_EXPORT_MODULE(BleClientManagerFork);
+RCT_EXPORT_MODULE(BleClientManagerFork*);
 
 - (void)dispatchEvent:(NSString * _Nonnull)name value:(id _Nonnull)value {
     if (hasListeners) {
