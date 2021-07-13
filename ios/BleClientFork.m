@@ -7,10 +7,10 @@
 //
 
 #import "BleClientFork.h"
-@import MultiplatformBleAdapter;
+@import hinge_MultiplatformBleAdapter;
 
-@interface BleModuleFork () <BleClientManagerDelegate>
-@property(nonatomic) BleClientManager* manager;
+@interface BleModuleFork () <BleClientManagerForkDelegate>
+@property(nonatomic) BleClientManagerFork* manager;
 @end
 
 @implementation BleModuleFork
@@ -20,7 +20,7 @@
 
 @synthesize methodQueue = _methodQueue;
 
-RCT_EXPORT_MODULE();
+RCT_EXPORT_MODULE(BleClientManagerFork);
 
 - (void)dispatchEvent:(NSString * _Nonnull)name value:(id _Nonnull)value {
     if (hasListeners) {

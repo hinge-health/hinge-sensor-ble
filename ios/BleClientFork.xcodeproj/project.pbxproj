@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		102073351DF7B74B0DAE27FF /* Pods_BleClient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DFF533B5337FAA849B7B517 /* Pods_BleClient.framework */; };
 		D7D202791D4F614D00E10F6A /* BleClientFork.m in Sources */ = {isa = PBXBuildFile; fileRef = D7D202771D4F614D00E10F6A /* BleClientFork.m */; };
+		FAF3A3A4FC3A9BB82A87500E /* Pods_BleClientFork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06B209E34B1E51A88D2A07D9 /* Pods_BleClientFork.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,12 +24,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		4DFF533B5337FAA849B7B517 /* Pods_BleClient.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BleClient.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		06B209E34B1E51A88D2A07D9 /* Pods_BleClientFork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BleClientFork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		10F45A65E1F709E0E533970D /* Pods-BleClientFork.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BleClientFork.release.xcconfig"; path = "Target Support Files/Pods-BleClientFork/Pods-BleClientFork.release.xcconfig"; sourceTree = "<group>"; };
 		C98D3BFF0742CAA77EE24920 /* Pods-BleClient.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BleClient.release.xcconfig"; path = "Target Support Files/Pods-BleClient/Pods-BleClient.release.xcconfig"; sourceTree = "<group>"; };
 		D73F06E81D48E17B00AD5963 /* libBleClientFork.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libBleClientFork.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		D760681620BBEEA10005ECAF /* BleClientFork-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BleClientFork-Bridging-Header.h"; sourceTree = "<group>"; };
 		D7D202771D4F614D00E10F6A /* BleClientFork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BleClientFork.m; sourceTree = "<group>"; };
 		D7D202781D4F614D00E10F6A /* BleClientFork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BleClientFork.h; sourceTree = "<group>"; };
+		DDDF300525AF5BFD673B998E /* Pods-BleClientFork.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BleClientFork.debug.xcconfig"; path = "Target Support Files/Pods-BleClientFork/Pods-BleClientFork.debug.xcconfig"; sourceTree = "<group>"; };
 		F12C271279460763ACBE0764 /* Pods-BleClient.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BleClient.debug.xcconfig"; path = "Target Support Files/Pods-BleClient/Pods-BleClient.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -38,7 +40,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				102073351DF7B74B0DAE27FF /* Pods_BleClient.framework in Frameworks */,
+				FAF3A3A4FC3A9BB82A87500E /* Pods_BleClientFork.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,6 +52,8 @@
 			children = (
 				F12C271279460763ACBE0764 /* Pods-BleClient.debug.xcconfig */,
 				C98D3BFF0742CAA77EE24920 /* Pods-BleClient.release.xcconfig */,
+				DDDF300525AF5BFD673B998E /* Pods-BleClientFork.debug.xcconfig */,
+				10F45A65E1F709E0E533970D /* Pods-BleClientFork.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -77,7 +81,7 @@
 		E8C769D549D49AEFBAC11D8E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				4DFF533B5337FAA849B7B517 /* Pods_BleClient.framework */,
+				06B209E34B1E51A88D2A07D9 /* Pods_BleClientFork.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -152,7 +156,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-BleClient-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-BleClientFork-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -278,7 +282,7 @@
 		};
 		D73F06F21D48E17B00AD5963 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F12C271279460763ACBE0764 /* Pods-BleClient.debug.xcconfig */;
+			baseConfigurationReference = DDDF300525AF5BFD673B998E /* Pods-BleClientFork.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
@@ -301,7 +305,7 @@
 		};
 		D73F06F31D48E17B00AD5963 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C98D3BFF0742CAA77EE24920 /* Pods-BleClient.release.xcconfig */;
+			baseConfigurationReference = 10F45A65E1F709E0E533970D /* Pods-BleClientFork.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
