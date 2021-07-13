@@ -996,7 +996,7 @@ declare module 'hinge-sensor-ble' {
    * // ... work with BLE manager ...
    * manager.destroy();
    */
-  export class BleManager {
+  export class BleManagerFork {
     /**
      * Creates an instance of {@link BleManager}.
      */
