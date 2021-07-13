@@ -17,4 +17,5 @@ Pod::Spec.new do |s|
   s.compiler_flags = '-DMULTIPLATFORM_BLE_ADAPTER'
 
   s.dependency 'React-Core'
+  s.dependency 'hinge-health/hinge-MultiplatformBleAdapter'
 end
