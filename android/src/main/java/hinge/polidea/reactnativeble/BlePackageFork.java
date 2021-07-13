@@ -24,7 +24,7 @@ public class BlePackageFork implements ReactPackage {
     @Override
     public List<NativeModule> createNativeModules(ReactApplicationContext reactContext) {
         List<NativeModule> modules = new ArrayList<>();
-        modules.add(new BleClientManager(reactContext));
+        modules.add(new BleClientManagerFork(reactContext));
         return modules;
     }
 }
