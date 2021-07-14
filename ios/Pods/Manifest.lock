@@ -1,0 +1,21 @@
+PODS:
+  - hinge-MultiplatformBleAdapter (0.1.8)
+
+DEPENDENCIES:
+  - "hinge-MultiplatformBleAdapter (from `git@github.com:hinge-health/hinge-MultiPlatformBleAdapter.git`)"
+
+EXTERNAL SOURCES:
+  hinge-MultiplatformBleAdapter:
+    :git: "git@github.com:hinge-health/hinge-MultiPlatformBleAdapter.git"
+
+CHECKOUT OPTIONS:
+  hinge-MultiplatformBleAdapter:
+    :commit: 9ab5f0577d46010e7ff35672c4a7b144fe6c0971
+    :git: "git@github.com:hinge-health/hinge-MultiPlatformBleAdapter.git"
+
+SPEC CHECKSUMS:
+  hinge-MultiplatformBleAdapter: 539805f12bd04f881a7d0ad0753e8604d82aeb9b
+
+PODFILE CHECKSUM: 1782a4fc9197fef3138db3570b2187c6a0d16558
+
+COCOAPODS: 1.10.1
